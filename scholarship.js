@@ -219,7 +219,8 @@ function nextPage(){
 	else if(xyz==false)
 		location.reload();
 }
-//Course.html
+
+//course
 function saveInfo(){
     var w=window.open("","",top=250,left=350,height=500,width=500,location='yes');
     w.document.write("<h1>Course Information</h1>");
