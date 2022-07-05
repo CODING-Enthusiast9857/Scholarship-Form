@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            h1{
+                background-color:rgb(125, 210, 238);
+                color:rgb(10, 10, 102);
+                border:2px solid rgb(10, 10, 102);
+                text-align:center;
+                width:30%;
+                font-size:30px;
+                margin-left:35%;
+            }
+        </style>
+        <title>Other Information | Scholarship</title>
+        <link rel="stylesheet" href="scholarship.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scholarship.js"></script>
+    </head> 
+    <body>
+        <form id="StudentInfo">
+            <strong style="font-size:30px;color:rgb(255, 94, 0);text-decoration:underline;">Other Information</strong>
+            <hr style="background-color:rgb(77, 131, 194);height:2px;margin:20 420 0 420;"/>
+            <h1 style="width:32%">Parent's/Guardian's Details</h1>
+           
+            <div class="label111">
+                <strong>Is Father's Alive?</strong>
+                <input type="radio" name="r2" value="Yes" onclick="document.getElementById('results').style.display='block'">Yes
+                <input type="radio" name="r2" value="No" onclick="document.getElementById('results').style.display='none'">No
+            </div>
+            <div id="results">
+                <div class="label1">
+                    Father's Name <input type="text" size=25 name="DName" placeholder="Father Name" id="nm" name="fname" onfocus="this.style.background='lightgray'" onblur="this.style.background=''">
+                </div>
+                <div class="label1">
+                    Occupation <input type="text" size=10 name="DOccupation" placeholder="Occupation" id="occ" onfocus="this.style.background='lightgray'" onblur="this.style.background=''">
+                </div>
+                <div class="label1">
+                    Is Salaried?
+                    <select name="DSalary">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>  
+
+            <div class="label111">
+                <strong>Is Mother's Alive?</strong>
+                <input type="radio" name="r3" value="Yes" onclick="document.getElementById('results1').style.display='block'">Yes
+                <input type="radio" name="r3" value="No" onclick="document.getElementById('results1').style.display='none'">No
+            </div>
+            <div id="results1">
+                <div class="label1">
+                    Mother's Name <input type="text" size=25 name="MName" placeholder="Mother Name" id="nm" onfocus="this.style.background='lightgray'" onblur="this.style.background=''">
+                </div>
+                <div class="label1">
+                    Occupation <input type="text" size=10 name="MOccupation" placeholder="Occupation" id="occ" onfocus="this.style.background='lightgray'" onblur="this.style.background=''">
+                </div>
+                <div class="label1">
+                    Is Salaried?
+                    <select name="MSalary">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div> 
+
+            <div class="button1">
+                <input type="button" name="back" value="Back" class="text11" style="background-color:rgb(255, 97, 34);" onclick="backAddress()">
+                <input type="button" name="next" value="Next" class="text11" style="background-color:rgb(255, 97, 34);" onclick="nextPage()">
+                <input type="reset" name="reset" value="Reset" class="text11" style="background-color:rgb(84, 252, 84);">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <style>
+            h1{
+                background-color:rgb(125, 210, 238);
+                color:rgb(10, 10, 102);
+                border:2px solid rgb(10, 10, 102);
+                text-align:center;
+                width:30%;
+                font-size:30px;
+                margin-left:35%;
+            }
+        </style>
+        <title>Address Information | Scholarship</title>
+        <link rel="stylesheet" href="scholarship.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="scholarship.js"></script>
+    </head> 
+    <body>
+        <form name="StudentInfo">
+            <strong style="font-size:30px;color:rgb(255, 94, 0);text-decoration:underline;">Permanent Address Details</strong>
+            <hr style="background-color:rgb(77, 131, 194);height:2px;margin:20 420 0 420;"/>
+            <h1>Address Details</h1>
+            <div class="label1">
+                Address <textarea placeholder="Address" rows=2 cols=40 class="text1" required="" name="address"></textarea>
+            </div>
+            <div class="label11">
+				Country
+				<select name='country' onchange="showStates(this)">
+					<option value='Australia'>Australia</option>
+					<option value='Brazil'>Brazil</option>
+					<option value='Canada'>Canada</option>
+					<option value='Egypt'>Egypt</option>
+					<option value='France'>France</option>
+					<option value='Germany'>Germany</option>
+					<option value='India'>India</option>
+					<option value='Japan'>Japan</option>
+					<option value='Korea'>Korea</option>
+					<option value='Mexico'>Mexico</option>
+					<option value='Nepal'>Nepal</option>
+					<option value='Oman'>Oman</option>
+					<option value='Pakistan'>Pakistan</option>
+					<option value='Russia'>Russia</option>
+					<option value='SouthAfrica'>South Africa</option>
+					<option value='SriLanka'>SriLanka</option>
+					<option value='UK'>UK</option>
+				</select>
+			</div>
+		    <div class="label11">
+				State
+				<select name='state' onchange="showDistricts(this)">
+					<option>State</option>
+				</select>
+			</div>
+            <div class="label1">
+                Pincode
+                <input type="text" placeholder="XXXXXXXX" name="pincode">
+            </div>
+
+            <div class="label1">
+                <b style="font-family:Times New Roman;font-size:28px;">Is Correspondence Address is same as Permanent?</b>
+            </div>
+            <div class="label1">
+                <input type="radio" name="r1" value="yes" onclick="fillPermanent()">Yes
+                <input type="radio" name="r1" value="no" onclick="noFillPermanent()">No
+            </div>
+            
+            <!Permanent Address>
+            <div id="results1">
+                <div class="label1">
+                    Address <textarea placeholder="Address" rows=2 cols=40 class="text1" required="" name="Paddress"></textarea>
+                </div>
+                <div class="label11">
+                    Country
+                    <select name='Pcountry' onchange="showStates(this)">
+                        <option value='a'>Australia</option>
+                        <option value='b'>Brazil</option>
+                        <option value='c'>Canada</option>
+                        <option value='e'>Egypt</option>
+                        <option value='f'>France</option>
+                        <option value='g'>Germany</option>
+                        <option value='i'>India</option>
+                        <option value='j'>Japan</option>
+                        <option value='k'>Korea</option>
+                        <option value='m'>Mexico</option>
+                        <option value='n'>Nepal</option>
+                        <option value='o'>Oman</option>
+                        <option value='p'>Pakistan</option>
+                        <option value='r'>Russia</option>
+                        <option value='sa'>South Africa</option>
+                        <option value='sl'>SriLanka</option>
+                        <option value='u'>UK</option>
+                    </select>
+                </div>
+                <div class="label11">
+                    State
+                    <select name='Pstate'>
+                        <option>State</option>
+                    </select>
+                </div>
+                <div class="label1">
+                    Pincode
+                    <input type="text" placeholder="XXXXXXXX" name="Ppincode">
+                </div>
+            </div>
+			
+            <div class="button1">
+                <input type="button" name="back" value="Back" class="text11" style="background-color:rgb(255, 97, 34);" onclick="backProfile()">
+                <input type="button" name="next" value="Next" class="text11" style="background-color:rgb(255, 97, 34);" onclick="nextOther()">
+                <input type="reset" name="reset" value="Reset" class="text11" style="background-color: rgb(84, 252, 84);">
+            </div>
+        </form>
+    </body>
+</html>

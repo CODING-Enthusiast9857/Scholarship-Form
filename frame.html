@@ -1,0 +1,53 @@
+<html>
+    <style>
+        button{
+            font-family: sans-serif;
+            background-color:rgb(255, 255, 255);
+            color:rgb(0, 45, 248);
+            font-weight:bold;
+            font-size:21px;
+            padding: 10 10 10 10;
+            margin:20 20 20 20;
+            border:2px dotted rgb(255, 0, 0);
+        }
+    </style>
+    <head>
+        <title>Progressbar | Buttons</title>
+        <script language="javascript" type="text/javascript">
+            function profile(){
+                parent.combine.location.href="Profile.html";
+                b1.style.background="rgb(19, 253, 11)";
+                b2.style.background="";
+                b3.style.background="";
+                b4.style.background="";
+            }
+            function address(){
+                parent.combine.location.href="Address.html";
+                b2.style.background="rgb(19, 253, 11)";
+                b1.style.background="";
+                b4.style.background="";
+                b3.style.background="";
+            }
+            function other(){
+                parent.combine.location.href="Other.html";
+                b3.style.background="rgb(19, 253, 11)";
+                b2.style.background="";
+                b1.style.background="";
+                b4.style.background="";
+            }
+            function course(){
+                parent.combine.location.href="Course.html";
+                b4.style.background="rgb(19, 253, 11)";
+                b3.style.background="";
+                b2.style.background="";
+                b1.style.background="";
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="javascript:profile()" name="b1" style="background:rgb(19,253,11);">Profile Information</button>
+        <button onclick="javascript:address()" name="b2">Address Information</button>
+        <button onclick="javascript:other()" name="b3">Other Information</button>
+        <button onclick="javascript:course()" name="b4">Course Information</button>
+    </body>
+</html>

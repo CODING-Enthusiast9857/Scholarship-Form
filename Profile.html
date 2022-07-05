@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <style>
+            h1{
+                background-color:rgb(125, 210, 238);
+                color:rgb(10, 10, 102);
+                border:2px solid rgb(10, 10, 102);
+                text-align:center;
+                width:25%;
+                margin-left:38%;
+                font-size:28px;
+                height:35px;
+            }
+        </style>
+        <title>Personal Information | Scholarship</title>
+        <link rel="stylesheet" href="scholarship.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script type="text/javascript" src="scholarship.js"></script>
+    </head> 
+    <body>
+        <form id="StudentInfo" method="post">
+            <strong style="font-size:30px;color:rgb(255, 94, 0);text-decoration:underline;">Update Profile</strong>
+            <hr style="background-color:rgb(77, 131, 194);height:2px;margin:20 420 0 420;"/>
+            <h1>Personal Details</h1>
+            <div class="label1">
+                Aadhar Number <input type="number" placeholder="XXXXXXXXXXXX" size=35 maxlength=12 required="" name="aadhar">
+            </div>
+            <div class="label1">
+                Full Name <input type="text" placeholder="Full Name" size=30 required="" name="name">
+            </div>
+            <div class="label1">
+                Email ID <input type="email" placeholder="Email ID" size=30 required="" name="email">
+            </div>
+            <div class="label1">
+                Mobile Number <input type="text" size=25 maxlength=10 placeholder="Mobile number" required="" name="mob">
+            </div>
+            <div class="label11">
+                Date of Birth <input type="date" name="dob">
+            </div>
+            <div class="label11">
+                Age <input type="text" placeholder="Age" size=5 name="age">
+            </div>
+            <div class="label11">
+                Gender 
+                <select name="gender">
+					<option name="Female" value="Female">Female</option>
+					<option name="Male" value="Male">Male</option>
+					<option name="Other" value="Other">Other</option>
+                </select>
+            </div>
+            <div class=label111>
+                <b>Education</b>
+                <input type="checkbox" name="ten" value="10th">10th
+                <input type="checkbox" name="twelve" value="12th">12th
+                <input type="checkbox" name="diploma" value="Diploma">Diploma
+                <input type="checkbox" name="bachelor" value="Bachelor's Degree">Bachelor Degree
+            </div>
+			<div class="label111">
+				<b>Marital Status</b> 
+				<input type="radio" name="r1" value="Unmarried" onchange="nextAddress(this.value)">Unmarried
+				<input type="radio" name="r1" value="Married" onchange="nextAddress(this.value)">Married
+				<input type="radio" name="r1" value="Widow" onchange="nextAddress(this.value)">Widow
+				<input type="radio" name="r1" value="Divorce" onchange="nextAddress(this.value)">Divorce
+			</div>
+            <div class="button1">
+                <input type="button" name="next" value="Next" class="text11" onclick="nextAddress()" style="background-color:rgb(255, 97, 34);">
+                <input type="reset" name="reset" value="Reset" class="text11" style="background-color:rgb(84, 252, 84);">
+            </div>
+            <p id="id"></p>
+        </form>
+    </body>
+</html>
