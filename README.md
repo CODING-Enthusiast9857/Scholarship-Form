@@ -1,2 +1,3 @@
 # Scholarship-Form
-This is project is made using HTML5, CSS3 and JavaScript.
+- This project is made using HTML5, CSS3 and JavaScript.
+- The most fundamental concept Frames in HTML is used in this project.
