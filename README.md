@@ -10,7 +10,7 @@
 <h2>&#10024; Features</h2>
 <ul>
   <li> It is user friendly website. </li>
-  <li> There are 4 sections such as profile, address, course etc. </li>
+  <li> There are 4 sections such as profile, address, course, other etc. </li>
 </ul>
 
 <h2>&#128247; Screenshots </h2>
