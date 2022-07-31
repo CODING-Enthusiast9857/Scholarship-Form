@@ -24,4 +24,6 @@
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/Info.png" alt="InfoFile">
 
 <h2>&#128105; Created by </h2>
-<p>Created with &#129293; by <a href="https://github.com/CODING-Enthusiast9857" target="_blank">Madhavi Sonawane.</a></p>
+<p>Created with &#129293; by 
+<a href="https://github.com/CODING-Enthusiast9857" target="_blank">Madhavi Sonawane.</a>
+</p>
