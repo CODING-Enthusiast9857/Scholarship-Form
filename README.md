@@ -17,7 +17,7 @@
 </ul>
 
 <h2>&#128247; Screenshots </h2>
-<img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/Profile.png" alt="profile">
+<img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/Profile.png" alt="profile" style="border:5px solid #000000; padding:3px; margin:5px;">
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/address.png" alt="address">
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/other.png" alt="other">
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/course.png" alt="course">
