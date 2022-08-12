@@ -8,8 +8,13 @@
   <li> Internet Explorer (IE) is most preferred. </li>
 </ol>
 
-
-
+<h2>&#128640; Features</h2>
+<ol>
+  <li> It is user friendly website. </li>
+  <li> There are 4 sections such as profile, address, course, other etc. </li>
+  <li> After entering profile information new tab will be open containing entered details. </li>
+  <li> Eventually, form will be submitted successfully. </li>
+</ol>
 
 <h2>&#128247; Screenshots </h2>
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/Profile.png" alt="profile" style="border:5px solid #000000; padding:3px; margin:5px;">
