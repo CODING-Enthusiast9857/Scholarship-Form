@@ -23,7 +23,7 @@
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/course.png" alt="course">
 <img src="https://github.com/CODING-Enthusiast9857/Scholarship-Form/blob/main/assets/Info.png" alt="InfoFile">
 
-<h2>📝 License </h2>
+<h2>📝 Licensed by </h2>
 <img src="https://img.shields.io/github/license/payloadbox/xss-payload-list">
     
 <h2>&#128105; Created by </h2>
