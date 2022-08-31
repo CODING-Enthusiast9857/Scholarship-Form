@@ -1,4 +1,3 @@
-
 <h1 align=center><p>&#128203; Scholarship-Form</p></h1>
 <!--h2>&#127919; About</h2-->
 <h2>&#128204 About</h2>
