@@ -1,3 +1,4 @@
+<html>
 <h1 align=center><p>&#128203; Scholarship-Form</p></h1>
 <!--h2>&#127919; About</h2-->
 <h2>&#128204 About</h2>
@@ -30,3 +31,4 @@
 <p>ᑕ𝕣𝕖𝕒𝕥𝕖𝕕 𝕨𝕚𝕥𝕙 &#129293; 𝕓𝕪 :)
 <a href="https://github.com/CODING-Enthusiast9857" target="_blank">Madhavi Sonawane.</a>
 </p>
+</html>
